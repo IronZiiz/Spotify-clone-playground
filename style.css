@@ -1,27 +1,11 @@
-    * {
-        box-sizing: border-box; 
-        font-size: 16px;
-    } 
-    .brand-logo{
-        fill: rgb(0, 0, 0);
-        width: 8rem;
-    }
-    .header-dashboard {
-        align-items: center;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
-        display: grid;
-        height: 5rem;
-        grid-template-columns: 25% 50% 25%;
-        width: 100%;
+/*Seleciona todos os elementos*/
+*{ 
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
-    }
-
-    .header-dashboard__logo {
-        align-items: center;
-        display: flex;
-        height: 100%;
-        padding: 0 2rem;
-        width: 100%;
-        grid-column-start: 1;
-        grid-row-start:1 ;
-    }
+header {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    height: 5rem;
+    width: 100%;
+}
